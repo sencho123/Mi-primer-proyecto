@@ -48,12 +48,47 @@ li {
     width: 100%;
 }
 
+.card:hover{
+
+    box-shadow: 2px 6px 26px 13px rgba(0,0,0,0.73);
+    -webkit-box-shadow: 2px 6px 26px 13px rgba(0,0,0,0.73);
+    -moz-box-shadow: 2px 6px 26px 13px rgba(0,0,0,0.73);
+
+}
+
+
 .card__div h1{
     border: 5px solid blue;
     border-radius: 8px;
     margin: 10px;
     padding: 5px;
 }
+
+<<<<<<< HEAD
+@media(max-width:600px){
+    .card__div p{
+        border: 5px solid rgba(17, 24, 39, 1);
+        border-radius: 20px;
+        padding: 10px;
+    }
+    .card{
+        width: 80%;
+    }
+    .container-cards{
+        flex-direction: column;
+        width: 100%;
+    }
+}
+=======
+.card__div h1:hover{
+
+padding: 15px;
+background-color: rgb(184, 189, 184);
+font-size: 20px;
+
+}
+
+>>>>>>> dev
 
 @media(max-width:600px){
     .card__div p{
