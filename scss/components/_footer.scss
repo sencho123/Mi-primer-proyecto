@@ -8,11 +8,41 @@
     width: 100vw;
     height: 5rem;
     grid-column: 1/-1;
+    
+
+    &--rrss{
+
+
+        $iconSocialMedia: (
+            contact: #0C17F9,
+            whatsapp: #1AF90C,
+            youtube: #F01D1D,
+            twitter: #32DBEF,
+        );
+
+
+        // bucle
+
+        @each $nameSocialMedia, $colorIcon in $iconSocialMedia {
+            .rs-#{$nameSocialMedia}{
+                color: #fff;
+                font-size: 20px;
+            
+
+                &:hover{
+                    color: $colorIcon;
+                }
+            }
+        }
+
+    }
+
 
 }
 
 .card__footer a {
     
     margin-top: 25%;
+
 
 }

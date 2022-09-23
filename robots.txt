@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sencho123.github.io/Mi-primer-proyecto/sitemap.xml

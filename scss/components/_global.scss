@@ -7,3 +7,19 @@
     transition:all .5s;
 
 }
+
+// EXTENDS
+
+.container{
+    width: 250px;
+    height: 250px;
+}
+
+// mixins
+
+@mixin margin($margin) {
+
+margin:$margin;
+
+}
+
