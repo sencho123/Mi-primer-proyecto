@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+    
+
+li {
+    display: inline;
+}
+
+
+
+body {
+    background-color: #282c34;
+    height: 400px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+
+
+.bodygod__title {
+    border: 5px solid rgba(17, 24, 39, 1);
+    padding: 1%;
+    text-align: center;
+border-radius: 20px;
+grid-column: 1/-1;
+
+}
+
+.bodygod__title:hover{
+
+font-size: 20px;
+background-color: rgb(85, 85, 85);
+
+}
+
+
+.bodygod__img {
+    width: 250px;
+    height: 250px;
+    display: inline;
+    margin: 15px;
+    border: 5px solid black;
+    box-shadow: 0 25px 50px -10px rgba(0, 0, 0, 1);
+    border-radius: 15px;
+    grid-column: 1/2;
+
+}
+
+.bodygod__p1 {
+    font-size: large;
+
+
+}
+
+
+
+.bodygod__div {
+    grid-column: 1/-1;
+    display: flex;
+
+
+}
+
+
+
+.h2__form{
+margin: 10px;
+border-left: 10px solid aqua;
+border-right: 10px solid aqua;
+padding: 5px;
+
+
+}
+
+.h2__form:hover{
+
+border: 2px solid rgb(224, 47, 15);
+text-align: center;
+padding-top: 100px;
+font-size: 30px;
+
+
+}
+
+.form__datos:hover{
+
+    box-shadow: 2px 6px 26px 13px rgba(0,0,0,0.73);
+    -webkit-box-shadow: 2px 6px 26px 13px rgba(0,0,0,0.73);
+    -moz-box-shadow: 2px 6px 26px 13px rgba(0,0,0,0.73);
+    margin-top: 20px;
+    
+
+
+}
+
+.form__datos{
+    border: 10px solid;
+    
+    }
+
+
+    .child1{
+        margin: 10px;
+        padding: 5px;
+    }
+@media(max-width:600px){
+    .bodygod__div{
+        align-items: center;
+        flex-direction: column;
+    }
+    .bodygod__div div:nth-child(2){
+        margin:10px;
+        border: 5px solid rgba(17, 24, 39, 1);
+        border-radius: 20px;
+    }
+    .bodygod__div div>p{
+        padding: 5px;
+    }
+    .card__header--ul {
+        margin: 10px;
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .card__header{
+        margin-bottom: 10px;
+    }
+    .card__header--login{
+        display: none;
+    }
+
+}

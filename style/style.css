@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  transition: all .5s; }
+
+.card__header--ul {
+  font-style: inherit;
+  font-size: 20px;
+  margin: 10px;
+  padding: 30px;
+  border-radius: 35px;
+  display: flex;
+  justify-content: space-between; }
+
+.card__header--login a {
+  color: #fff; }
+
+.card__header {
+  position: sticky;
+  top: 0;
+  border-radius: 15px;
+  background: #020024;
+  background: linear-gradient(90deg, #020024 0%, #1616be 33%, #90c8d4 54%);
+  grid-column: 1/-1; }
+
+.card__header--nav a {
+  margin: 0 10px;
+  color: #fff;
+  font-weight: bold; }
+
+.card__header--nav a:hover {
+  color: #1687e4;
+  border: 5px solid black;
+  padding: 5px; }
+
+.card__footer {
+  position: fixed;
+  bottom: 0%;
+  border-radius: 10px;
+  text-align: center;
+  background: #eeaeca;
+  background: linear-gradient(238deg, #eeaeca 0%, #94bbe9 100%);
+  width: 100vw;
+  height: 5rem;
+  grid-column: 1/-1; }
+
+.card__footer a {
+  margin-top: 25%; }
+
+li {
+  display: inline; }
+
+body {
+  background-color: #282c34;
+  height: 400px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 2fr; }
+
+.bodygod__title {
+  border: 5px solid #111827;
+  padding: 1%;
+  text-align: center;
+  border-radius: 20px;
+  grid-column: 1/-1; }
+
+.bodygod__title:hover {
+  font-size: 20px;
+  background-color: #555555; }
+
+.bodygod__img {
+  width: 250px;
+  height: 250px;
+  display: inline;
+  margin: 15px;
+  border: 5px solid black;
+  box-shadow: 0 25px 50px -10px black;
+  border-radius: 15px;
+  grid-column: 1/2; }
+
+.bodygod__p1 {
+  font-size: large; }
+
+.bodygod__div {
+  grid-column: 1/-1;
+  display: flex; }
+
+.h2__form {
+  margin: 10px;
+  border-left: 10px solid aqua;
+  border-right: 10px solid aqua;
+  padding: 5px; }
+
+.h2__form:hover {
+  border: 2px solid #e02f0f;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 30px; }
+
+.form__datos:hover {
+  box-shadow: 2px 6px 26px 13px rgba(0, 0, 0, 0.73);
+  -webkit-box-shadow: 2px 6px 26px 13px rgba(0, 0, 0, 0.73);
+  -moz-box-shadow: 2px 6px 26px 13px rgba(0, 0, 0, 0.73);
+  margin-top: 20px; }
+
+.form__datos {
+  border: 10px solid; }
+
+.child1 {
+  margin: 10px;
+  padding: 5px; }
+
+@media (max-width: 600px) {
+  .bodygod__div {
+    align-items: center;
+    flex-direction: column; }
+  .bodygod__div div:nth-child(2) {
+    margin: 10px;
+    border: 5px solid #111827;
+    border-radius: 20px; }
+  .bodygod__div div > p {
+    padding: 5px; }
+  .card__header--ul {
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center; }
+  .card__header {
+    margin-bottom: 10px; }
+  .card__header--login {
+    display: none; } }
+
+a {
+  text-decoration: none; }
+
+li {
+  display: inline; }
+
+.card__div {
+  grid-column: 1/-1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.container-cards {
+  grid-column: 1/-1;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around; }
+
+.card {
+  border: 2px solid black;
+  border-radius: 0.36rem;
+  width: 20vw;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0 0 0; }
+
+.image-card {
+  width: 100%; }
+
+.card:hover {
+  box-shadow: 2px 6px 26px 13px rgba(0, 0, 0, 0.73);
+  -webkit-box-shadow: 2px 6px 26px 13px rgba(0, 0, 0, 0.73);
+  -moz-box-shadow: 2px 6px 26px 13px rgba(0, 0, 0, 0.73); }
+
+.card__div h1 {
+  border: 5px solid blue;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 5px; }
+
+@media (max-width: 600px) {
+  .card__div p {
+    border: 5px solid #111827;
+    border-radius: 20px;
+    padding: 10px; }
+  .card {
+    width: 80%; }
+  .container-cards {
+    flex-direction: column;
+    width: 100%; } }
+
+.card__div h1:hover {
+  padding: 15px;
+  background-color: #b8bdb8;
+  font-size: 20px; }
+
+@media (max-width: 600px) {
+  .card__div p {
+    border: 5px solid #111827;
+    border-radius: 20px;
+    padding: 10px; }
+  .card {
+    width: 80%; }
+  .container-cards {
+    flex-direction: column;
+    width: 100%; } }
+
+a {
+  text-decoration: none; }
+
+li {
+  display: inline; }
+
+.card__header {
+  position: sticky;
+  top: 0;
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/1022/877/276/digital-art-solid-color-wallpaper-preview.jpg);
+  border-radius: 15px; }
+
+.card__header--nav a {
+  margin: 0 10px;
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+.bodygod {
+  background-color: #282c34;
+  height: 400px;
+  position: relative; }
+
+.bodygod h5 {
+  font-size: 20px;
+  border-left: 10px solid violet;
+  padding: 5px; }
+
+.bodygod__content p {
+  width: 1000px;
+  height: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 20px;
+  padding: 10px; }
+
+.card__header--ul {
+  font-style: inherit;
+  font-size: 20px;
+  margin: 10px;
+  padding: 30px;
+  border-radius: 35px;
+  display: flex;
+  justify-content: space-between; }
+
+.card__header--login a {
+  color: #fff; }
