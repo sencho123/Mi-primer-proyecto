@@ -2,10 +2,6 @@ a {
     text-decoration: none;
 }
 
-li {
-    display: inline;
-}
-
 .card__div{
     grid-column: 1/-1;
     display: flex;
@@ -23,7 +19,7 @@ li {
     justify-content: space-around;
 }
 
-.card {
+.card66 {
     border: 2px solid black;
     border-radius: 0.36rem;
     width: 20vw;
@@ -62,8 +58,8 @@ li {
         border-radius: 20px;
         padding: 10px;
     }
-    .card{
-        width: 80%;
+    .card66{
+        width: 100%;
     }
     .container-cards{
         flex-direction: column;
@@ -86,8 +82,8 @@ font-size: 20px;
         border-radius: 20px;
         padding: 10px;
     }
-    .card{
-        width: 80%;
+    .card66{
+        width: 100%;
     }
     .container-cards{
         flex-direction: column;

@@ -1,6 +1,4 @@
 .card__footer {
-    position:fixed;
-    bottom:0%;
     border-radius: 10px;
     text-align: center;
     background: rgb(238,174,202);
@@ -37,12 +35,14 @@
 
     }
 
+    & li{
+        display: inline;
+    }
+
+    & a{
+        margin-top: 25%;
+    }
 
 }
 
-.card__footer a {
-    
-    margin-top: 25%;
 
-
-}
